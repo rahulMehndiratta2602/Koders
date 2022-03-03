@@ -1,0 +1,85 @@
+.sharedLayout {
+    /* background-color: yellow */
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+.sharedLayout nav {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 81vh;
+    position: sticky;
+    top: 19vh;
+    border-top: 2px solid var(--font-color);
+    border-right: 2px solid var(--font-color);
+}
+.sharedLayout nav span {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-family: var(--mono-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sharedLayout nav span:hover {
+    opacity: 0.7;
+}
+.sharedLayout nav span a {
+    color: var(--font-color);
+    text-decoration: none;
+    margin-left: 1rem;
+    letter-spacing: 0rem;
+}
+/* .sharedLayout nav span a:hover {
+    opacity: 0.5;
+} */
+.outlet {
+    background-color: rgb(240, 217, 221);
+    padding: 3rem 5rem;
+}
+
+.formHorizontal {
+    display: flex;
+    background-color: rgb(173, 174, 233, 0.3);
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 1rem 2rem 2rem 3rem;
+    color: black;
+}
+.formCenter {
+    /* background-color: yellow; */
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5rem 5rem;
+    column-gap: 3rem;
+}
+.formHorizontal h3 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clearBtn {
+    background-color: green;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    letter-spacing: 0.2rem;
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    cursor: pointer;
+    margin-left: 2rem;
+}

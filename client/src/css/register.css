@@ -1,0 +1,18 @@
+.registerWrapper {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form h3 {
+    font-family: monospace;
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+}
+.member-btn {
+    border: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    background: transparent;
+}

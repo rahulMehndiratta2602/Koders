@@ -1,0 +1,43 @@
+.bcg {
+    background-color: var(--background);
+}
+
+.landingWrapper {
+    padding: 0rem 0 0 var(--padding-x);
+    display: flex;
+}
+.landingWrapper img {
+    aspect-ratio: 6/7;
+    height: 83vh;
+    object-fit: cover;
+}
+.landingHeading {
+    color: var(--primary-color);
+    font-size: 3rem;
+    font-family: var(--mono-font);
+}
+.landingPara {
+    font-family: var(--mono-font);
+    font-size: 1.25rem;
+}
+
+.landingWrapper article {
+    padding-top: 4rem;
+    padding-right: 4rem;
+    text-align: center;
+}
+.landingWrapper button {
+    letter-spacing: 0.15rem;
+    background-color: var(--primary-color);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-weight: 800;
+    border-radius: 1rem;
+    color: white;
+}
+.landingWrapper button:hover {
+    opacity: 0.6;
+}
